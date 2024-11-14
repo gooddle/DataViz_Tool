@@ -41,10 +41,6 @@ y_label = [60, 68, 80, 47, 20, 30]
 **공통** :  x축 ,y축 원하는 데이터 값 이름의 변수 사용 후 데이터 값 입력 
 
 ## graph-visualization.py
-**a. 데이터**
-- x_label과 y_label은 각각 x축과 y축에 표시될 데이터입니다.
-- x_label = [1, 2, 3, 4, 5]: x축에 해당하는 시간 또는 다른 항목.
-- y_label = [1, 2, 3, 4, 5]: y축에 해당하는 실험 결과 값 (예: 강도).
   
 **b. 산점도 (Scatter plot)**
 - plt.scatter(x_label, y_label, color='blue'): x_label과 y_label 데이터를 이용해 파란색 산점도를 생성합니다. 이 점들은 데이터를 시각적으로 나타내는 역할을 합니다.
